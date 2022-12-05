@@ -1,0 +1,6 @@
+[submodule "tg-frontend"]
+	path = tg-frontend
+	url = git@github.com:Eduarda-Oliveira/tg-frontend.git
+[submodule "tg-backend"]
+	path = tg-backend
+	url = git@github.com:Eduarda-Oliveira/tg-backend.git
