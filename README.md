@@ -19,14 +19,14 @@
 2. [Arquitetura](#arquitetura)
 3. [Modelo de Dados](#dados)
 
-## :books: Descrição <a name="descrição"></a>
+## :pushpin: Descrição <a name="descrição"></a>
 
 <p align="justify">
 Este trabalho de graduação é uma aplicação para dispositivos móveis visando conectar pessoas que querem vender, trocar ou doar seus equipamentos ou
 serviços de tecnologia assistiva a pessoas que precisam.
 </p>
 
-## :bookmark_tabs: Arquitetura <a name="arquitetura"></a>
+## :hammer_and_wrench: Arquitetura <a name="arquitetura"></a>
 • Usuário logado: Anunciante que realizará a criação e edição de anúncios de tecnologias assistivas.
 
 • Usuário não logado: Comprador, usuário que está em busca de tecnologias assistivas e visualizará os anúncios.
@@ -35,7 +35,7 @@ serviços de tecnologia assistiva a pessoas que precisam.
 
 ![](/documents/Diagrama_em_branco.png)
 
-## :bookmark_tabs: Modelo de Dados <a name="dados"></a>
+## :round_pushpin: Modelo de Dados <a name="dados"></a>
 • Category: Armazena os dados das categorias.
 
 • Item: Armazena os dados da relação do anúncio com o anunciante utilizando a chave estrangeira CLI_ID e os dados da relação da categoria com o item com a chave estrangeira CAT_ID. Além dos dados relativos ao anúncio, como título, preço e descrição etc.
