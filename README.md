@@ -23,13 +23,18 @@ serviços de tecnologia assistiva a pessoas que precisam.
 
 ## :bookmark_tabs: Arquitetura <a name="Arquitetura"></a>
 • Usuário logado: Anunciante que realizará a criação e edição de anúncios de tecnologias assistivas.
+
 • Usuário não logado: Comprador, usuário que está em busca de tecnologias assistivas e visualizará os anúncios.
+
 • Administrador: Tem a capacidade de criar categorias para setorizar as tecnologias assistivas, além de prestar assistência aos usuários e resolver eventuais problemas da aplicação.
+
 ![](/documents/Diagrama_em_branco.png)
 
 ## :bookmark_tabs: Modelo de Dados <a name="Dados"></a>
 • Category: Armazena os dados das categorias.
-• Item: Armazena os dados da relação do anúncio com o anunciante utilizando a chave estrangeira CLI_ID e os dados da relação da categoria com o item com a chave
-estrangeira CAT_ID. Além dos dados relativos ao anúncio, como título, preço e descrição etc.
+
+• Item: Armazena os dados da relação do anúncio com o anunciante utilizando a chave estrangeira CLI_ID e os dados da relação da categoria com o item com a chave estrangeira CAT_ID. Além dos dados relativos ao anúncio, como título, preço e descrição etc.
+
 • Client: Armazena os dados do cliente.
+
 ![](/documents/bd.png)
